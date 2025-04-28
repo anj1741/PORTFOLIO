@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h1>ANJANA VARSHEPALLY</h1>
+            <!--<p>Undergraduate | Developer | UI Enthusiast</p>-->
+        </div>
+        <p><span class="typing-text"></span></p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <!-- About Me Section -->
+    <section id="about" class="reveal">
+        <h1><u>ABOUT ME</u></h1>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Hello! I'm <strong>Anjana Varshepally</strong>, a <strong>Computer Science undergraduate</strong> in my third year, passionate about <strong>frontend development and UI/UX design</strong>. I enjoy creating visually appealing and user-friendly web experiences.</p>
+                <p>Currently, I’m interning at a <strong>startup</strong>, gaining hands-on experience in <strong>modern web technologies and UI/UX principles</strong>. My ability to <strong>adapt quickly</strong> and <strong>solve problems</strong> helps me learn new technologies efficiently.</p>
+                <p>Beyond coding, I love <em>designing intuitive interfaces</em> and exploring tools like <strong>Figma and Adobe XD</strong>. I also have a keen interest in <em>music, digital art, and staying organized</em>.</p>
+                <p><strong>Technical Skills:</strong> Python, Java, HTML, CSS, SQL</p>
+                <p><strong>Tools & Platforms:</strong> VS Code, Figma</p>
+            </div>
+            <div class="about-image">
+                <img src="profile.jpg" alt="Anjana Varshepally">
+            </div>
+        </div>
+        <div class="resume-flip-container">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <h3>MY RESUME</h3>
+                </div>
+                <div class="flip-card-back">
+                    <a href="RESUME.pdf" download class="resume-button">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+    </section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="reveal">
+    <h1><u>PROJECTS</u></h1>
+    
+    <div class="project">
+        <h3><i><u>2.Amazon UI Clone</u></i></h3>
+        <p>
+            I developed a <b>fully responsive UI clone of the Amazon homepage</b> using <b>HTML and CSS</b>, replicating the 
+            <b>core design, layout, and structure</b> of the original website. This project aimed to enhance my 
+            <b>frontend development skills</b>, focusing on <b>UI consistency, styling, and layout structuring</b>.
+        </p>
+    
+        <h4><b>Key Features:</b></h4>
+        <ul>
+            <li><b>Fully structured homepage layout</b> – Includes the <b>header, navigation bar, product sections, and footer</b> to replicate the real Amazon experience.</li>
+            <li><b>Header and Footer</b> – Implemented Amazon's <b>search bar, cart icon, and category navigation menu</b> for an authentic feel.</li>
+            <li><b>Product Display Sections</b> – Added <b>sample product listings with hover effects</b> to improve user interaction.</li>
+        </ul>
+    
+        <p>
+            This project helped me understand <b>modern UI trends, layout structuring, and responsive web design techniques</b>.
+        </p>
+        <div class="project-images">
+            <img src="amazon1.png" alt="Amazon UI Clone - Image 1">
+            <img src="amazon2.png" alt="Amazon UI Clone - Image 2">
+            <img src="amazon3.png" alt="Amazon UI Clone - Image 3">
+        </div>
+        <div class="project-links">
+            <a href="https://anj1741.github.io/Amazon_UI_Clone/amazon/" class="project-link" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <h3><i><u>2.Diabetic Foot Ulcer Detection</u></i></h3>
+        <p>This project utilizes <strong>Machine Learning</strong> techniques to detect and classify <em>diabetic foot ulcers</em> into different severity stages. Early detection can significantly improve treatment outcomes for patients.</p>
+        <p><strong>Our approach involved:</strong></p>
+        <ul>
+            <li>Using <strong>deep learning models</strong> for image classification</li>
+            <li>Training the model on <em>a dataset of medical images</em></li>
+            <li>Implementing <strong>an interactive user interface</strong> for medical professionals</li>
+        </ul>
+        <p>The project was successfully <strong>validated and published in a research paper</strong>, demonstrating its potential impact in the medical field.</p>
+        <div class="project-links">
+            <a href="https://github.com/AJ-Athira/Prediction-of-Diabetic-Foot-Ulcer-Detection" target="_blank" class="project-link">GitHub Repository</a>
+            <a href="https://ieeexplore.ieee.org/document/10724621" class="project-link" target="_blank">Published Research Paper</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="reveal">
+    <h1><u>CONTACT</u></h1>
+    <div class="contact-links">
+        <a href="mailto:22211a0520@bvrit.ac.in" target="_blank">
+            <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://github.com/anj1741" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/anjana-varshepally-73b3a4283/" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+    </div>
+
+    <form>
+        <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+            <textarea placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+
+<footer>
+    <div class="footer-container">
+        <p>© 2025 Anjana Varshepally | All Rights Reserved.</p>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a>Privacy Policy</a>
+        </div>
+        <a href="#top" id="backToTop">Back to Top</a>
+    </div>
+</footer>
+<div class="cursor"></div>
+<script src="script.js"></script>
+</body>
+</html>
